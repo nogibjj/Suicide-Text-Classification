@@ -1,2 +1,8 @@
+Suicide_Detection.csv filter=lfs diff=lfs merge=lfs -text
+processed_trainData.csv filter=lfs diff=lfs merge=lfs -text
+corpus.pickle filter=lfs diff=lfs merge=lfs -text
+label.pickle filter=lfs diff=lfs merge=lfs -text
+text_representation.pickle filter=lfs diff=lfs merge=lfs -text
+tfidf.pickle filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.pickle filter=lfs diff=lfs merge=lfs -text
