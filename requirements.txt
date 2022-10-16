@@ -5,5 +5,4 @@ ipython
 scikit-learn
 numpy
 pandas
-re
 nltk
