@@ -1,0 +1,9 @@
+pytest
+pylint
+click
+ipython
+scikit-learn
+numpy
+pandas
+re
+nltk
