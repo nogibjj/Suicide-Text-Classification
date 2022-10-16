@@ -1,5 +1,5 @@
-from text_preprocessing import utils_preprocess_text
 import pickle
+from text_preprocessing import utils_preprocess_text
 
 
 def classify_newtext(

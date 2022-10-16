@@ -19,7 +19,7 @@ def load_tfidf_label():
     return tfidf_vec, text_representation, corpus, label
 
 
-def train_save_model(tfidf_vec, text_representation, label, corpus):
+def train_save_model(tfidf_vec, text_representation, label):
     lr_model = LogisticRegression(max_iter=500)
     lr_model.fit(text_representation, np.array(label))
     filename = "lr_model.sav"
@@ -27,8 +27,8 @@ def train_save_model(tfidf_vec, text_representation, label, corpus):
 
 
 def main():
-    tfidf_vec, text_representation, label, corpus = load_tfidf_label()
-    train_save_model(tfidf_vec, text_representation, label, corpus)
+    tfidf_vec, text_representation, corpus, label = load_tfidf_label()
+    train_save_model(tfidf_vec, text_representation, label)
 
 
 if __name__ == "__main__":

@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
 from sklearn.model_selection import KFold
 from sklearn import metrics
 import re
